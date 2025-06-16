@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@paddle/paddle-node-sdk": "^2.7.3",
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2",
+    "qs": "^6.14.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.3"
+  }
+}
